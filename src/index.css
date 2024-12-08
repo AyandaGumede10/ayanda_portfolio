@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgba(16, 24, 39);
+}
+
+/*Home Page*/
+
+.Home_Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.Home_Page img{
+    width: 11%;
+    border-radius: 55%;
+}
+.page_content{
+    padding-left: 2%;
+}
+.page_content h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.page_content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(184, 181, 181);
+    margin-top: -3%;
+}
+
+/*Socials*/
+.socials{
+    font-size: 16px;
+    color: rgb(184, 181, 181);
+    font-family: sans-serif;
+    margin-left: -28%;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.social-images{
+    margin-left: 22.5%;
+    margin-top: -4.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials img{
+    width: 30px;
+    padding: 30%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.social-images a{
+    margin-right: 2%;
+}
+.social-images img:hover{
+    box-shadow: 0px 0px 10px rgb(204, 201, 201);
+}
+
+.bio{
+    width: 30%;
+    font-size: 16px;
+    margin-left: 34%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+
+
+/*Resume */
+.resume{
+    font-size: 16px;
+    color: rgb(184, 181, 181);
+    font-family: sans-serif;
+    margin-left: -30%;
+    padding-top: 2%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.resume-card{
+    width: 25%;
+    margin-left: 48%;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(119, 119, 118);
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.resume-card p{
+    background: transparent;
+    text-align: left;
+    font-size: 13px;
+    color: white;
+}
+.resume button{
+    margin-top: 2%;
+    width: 100%;
+    height: 40px;
+    background: whitesmoke;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.resume button:hover{
+    transform: scale(0.90);
+}
+.resume button a{
+    background: transparent;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(16, 24, 39);
+}
+
+/*Personal-info*/
+.personal-info {
+    font-size: 16px;
+    color: rgb(184, 181, 181);
+    font-family: sans-serif;
+    margin-left: -28%;
+    padding-top: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.personal-info summary{
+    width: 25.5%;
+    text-align: left;
+    height: 20px;
+    padding: 1%;
+    margin-left: 47%;
+    margin-top: 2%;
+    background: rgba(22, 163, 74);
+    border-radius: 7px;
+    color: white;
+}
+.personal-info #dev{
+    background: rgba(79, 70, 229);
+}
+
+
+
+/*Certificate*/
+
+.certificate{
+    font-size: 16px;
+    color: rgb(184, 181, 181);
+    font-family: sans-serif;
+    margin-left: -28%;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.certificate-card{
+    width: 25.5%;
+    margin-left: 47%;
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.certificate-card:hover{
+    box-shadow: 0px 0px 30px rgb(204, 201, 201);
+}
+.certifacte-content{
+    padding: 1%;
+    background: white;
+}
+.certifacte-content h2{
+    font-size: 20px;
+
+    text-align: left;
+    font-weight: lighter;
+    color:  rgba(16, 24, 39);
+    background: transparent;
+}
+.certifacte-content p{
+    text-align: left;
+    font-size: 12px;
+    color:  rgba(16, 24, 39);
+    background: transparent;
+}
+.certifacte-content button{
+    margin-left: 80%;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.certifacte-content button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*Modal*/
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 49.5%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: none;
+    border-radius: 20px;
+    z-index: 10;
+    background-color: rgba(16, 24, 39);
+    max-width: 100%;
+    width: 35%;
+}
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+    margin-top: 2%;
+    padding:  3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+.modal-header .title{
+    background-color: rgb(59, 59, 59);
+}
+.modal-header .title p{
+    font-size: 31px;
+    text-align: left;
+    margin-top: 5%;
+    font-family: sans-serif;
+    color: white;
+    background: transparent;
+}
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.modal-body{
+    background: transparent;
+    padding: 4%;
+}
+.modal-body p{
+    padding: 1%;
+    width: 100%;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+    font-size: 15px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font: lighter;
+}
+
+/*Second Modal*/
+.modal-body h2{
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: -6%;
+    color: white;
+}
+.modal-body h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+    background: transparent;
+    padding-bottom: 2%;
+}
+.modal-body ul{
+    background: transparent;
+    padding: 1%;
+}
+.modal-body b{
+    background: transparent;
+}
+.modal-body li{
+    margin-left: 7%;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    padding-bottom: 1%;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.copyright{
+    text-align: center;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.copyright a{
+    color: grey;
+}
+
+/*/////////////////////////////////////////////////Screen Sizes////////////////////////////////////////*/
+
+/*-----------------------------------Ipad------------------------------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1100px){}
+
+@media screen and (min-width: 1180px) and (max-width: 1200px){
+    .social-images{
+        margin-top: -4%;
+        margin-left: 18%;
+    }
+    .bio{
+        font-size: 18px;
+        padding: 2%;
+        width: 45%;
+        margin-left:30%;
+    }
+    .resume-card{
+        width: 30%;
+        padding: 1.5%;
+    }
+    .personal-info summary{
+        width: 32%;
+    }
+    .certificate-card{
+        width: 32%;
+    }
+    .modal{
+        width: 50%;
+        margin-left: 4%;
+    }
+    .modal-body p{
+        font-size: 18px;
+    }
+}
+/*-----------------------------------Ipad------------------------------------------------------*/
+@media screen and (min-width: 820px) and (max-width: 1024px){
+    .Home_Page img{
+        width: 15%;
+        margin-left: -10%;
+    }
+    .page_content h2{
+        font-size: 39px;
+    }
+    .social-images{
+        margin-top: -4%;
+        margin-left: 3%;
+    }
+    .bio{
+        font-size: 18px;
+        padding: 2%;
+        width: 70%;
+        margin-left:16%;
+    }
+    #section-title{
+        margin-left: -20%;
+        font-size: 20px;
+    }
+    .resume-card{
+        width: 48%;
+        padding: 1.5%;
+        margin-left: 36%;
+    }
+    .personal-info summary{
+        width: 50%;
+        height: 28px;
+        font-size: 14px;
+        margin-left: 35%;
+        padding-top: 2%;
+    }
+    .certificate-card{
+        width: 50%;
+        margin-left: 35%;
+    }
+    .modal{
+        width: 80%;
+        height: auto;
+        margin-top: -15%;
+        padding: 2%;
+    }
+    .modal-body p{
+        font-size: 27px;
+    }
+    #modal-2-bd li{
+        font-size: 22px;
+    }
+}
+
+/*-----------------------------------Ipad------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .Home_Page img{
+        width: 18%;
+    }
+    .page_content h2{
+        font-size: 28px;
+    }
+    .page_content p{
+        font-size: 17.5px;
+    }
+    /* social */
+    .social-images{
+        margin-top: -4%;
+        margin-left: 17%;
+    }
+    .social-images a{
+        margin-right: 3%;
+        width: 2.9%;
+    }
+    .bio{
+        padding: 2.5%;
+        font-size: 17px;
+        width: 70%;
+        margin-left:15%;
+    }
+    /* ResumeSection */
+    #section-title{
+        margin-left: -20%;
+        font-size: 20px;
+    }
+    .resume-card{
+        width: 50%;
+        margin-left: 37%;
+    }
+    .resume-card p{
+        font-size: 14px;
+    }
+    /* PersonalInfo */
+    .personal-info summary{
+        width: 50%;
+        height: 28px;
+        font-size: 14px;
+        margin-left: 37%;
+        padding-top: 2%;
+    }
+    /* Certificate */
+    .certificate-card{
+        width: 53%;
+        margin-left: 35%;
+    }
+    .certifacte-content h2{
+        font-size: 16px;
+    }
+    .certifacte-content p{
+        font-size: 12px;
+    }
+    .certifacte-content button{
+        margin-left: 70%;
+        margin-top: 2%;
+    }
+    /* modal */
+    .modal{
+        width: 90%;
+        height: auto;
+        margin-top: -1%;
+    }
+    .modal-body p{
+        font-size: 14px;
+
+    }
+    .modal-body h3{
+        font-size: 16px;
+    }
+    .modal-body b{
+        font-size: 16px;
+    }
+    .modal-body li{
+        font-size: 23px;
+        padding-bottom: 2.5%;
+    }
+    #modal-2{
+        width: 90%;
+        height: auto;
+    }
+    #modal-2 h3{
+        font-size: 16px;
+        margin-top: -2%;
+    }
+    #modal-2 li{
+        font-size: 14px;
+    }
+}
+/* ----------------------------------CellPhone-------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 480px ) {
+    .Home_Page{
+        padding-top: 9%;
+        padding-left: 5%;
+    }
+    .Home_Page img{
+        width: 30%;
+        padding-right: 1.1%;
+    }
+    .Home_Page h2{
+        font-size: 18px;
+    } 
+    /* --Social_Link--*/                                                                                                                              
+    .socials{
+        margin-left: -50%;
+    }
+    .social-images{
+        margin-left: 35%;
+    }
+    .socials a{
+        margin-right: 5%;
+        width: 3%;
+    }
+    .socials img{
+        width: 20px;
+    }
+    .bio{
+        padding: 2%;
+        width: 95%;
+        margin-left: 2.8%;
+        font-size: 13px;
+    }
+    /* section tile */
+    #section-title{
+        margin-left: -10%;
+        font-size: 17px;
+    }
+    /* --Resume-- */
+    .resume{
+        margin-left: -57%;
+    }
+    .resume-card{
+        width: 50%;
+        margin-left: 42%;
+    }
+    .resume-card p{
+        font-size: 13.5px;
+    }
+    /* --PersonalInfo-- */
+    .personal-info{
+        margin-left: -50%;
+    }
+    .personal-info summary{
+        width: 52%;
+        margin-left: 40%;
+        height: 35px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* --Certificare-- */
+    .certificate{
+        margin-left: -45%;
+    }
+    .certificate-card{
+        width: 53.5%;
+        margin-left: 38%;
+        padding: 2%;
+    }
+    .certificate-card h2{
+        font-size: 15px;
+    }
+    .certifacte-content button{
+        margin-left: 60%;
+        margin-top: 1%;
+        height: 35px;
+    }
+    /* --Modal--- */
+    .modal{
+        width: 90%;
+    }
+    .modal-body p{
+        font-size: 13.5px;
+    }
+    .modal-header .title p{
+        font-size: 18px;
+    }
+    .modal-body h3{
+        font-size: 16px;
+    }
+    .modal-body li{
+        font-size: 12px;
+    }
+}
