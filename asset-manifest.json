@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AyandaGumede10/ayandas_portfolio.git/static/css/main.d3a003ed.css",
-    "main.js": "/AyandaGumede10/ayandas_portfolio.git/static/js/main.7d3bdaff.js",
-    "static/media/self.JPG": "/AyandaGumede10/ayandas_portfolio.git/static/media/self.bff1b3d5511b94528435.JPG",
-    "static/media/github-142-svgrepo-com.svg": "/AyandaGumede10/ayandas_portfolio.git/static/media/github-142-svgrepo-com.482952713526e2f4259a00cf507541f1.svg",
-    "static/media/linkedin-rounded-svgrepo-com.svg": "/AyandaGumede10/ayandas_portfolio.git/static/media/linkedin-rounded-svgrepo-com.4960de543f6e9935356255c54dedf083.svg",
-    "index.html": "/AyandaGumede10/ayandas_portfolio.git/index.html",
-    "static/media/email-svgrepo-com (1).svg": "/AyandaGumede10/ayandas_portfolio.git/static/media/email-svgrepo-com (1).a41a55da60d749efba1a786d6f2fc1fc.svg",
-    "main.d3a003ed.css.map": "/AyandaGumede10/ayandas_portfolio.git/static/css/main.d3a003ed.css.map",
-    "main.7d3bdaff.js.map": "/AyandaGumede10/ayandas_portfolio.git/static/js/main.7d3bdaff.js.map"
+    "main.css": "/AyandaGumede10/ayanda_portfolio.git/static/css/main.d3a003ed.css",
+    "main.js": "/AyandaGumede10/ayanda_portfolio.git/static/js/main.ccb05972.js",
+    "static/media/self.JPG": "/AyandaGumede10/ayanda_portfolio.git/static/media/self.bff1b3d5511b94528435.JPG",
+    "static/media/github-142-svgrepo-com.svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/github-142-svgrepo-com.482952713526e2f4259a00cf507541f1.svg",
+    "static/media/linkedin-rounded-svgrepo-com.svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/linkedin-rounded-svgrepo-com.4960de543f6e9935356255c54dedf083.svg",
+    "index.html": "/AyandaGumede10/ayanda_portfolio.git/index.html",
+    "static/media/email-svgrepo-com (1).svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/email-svgrepo-com (1).a41a55da60d749efba1a786d6f2fc1fc.svg",
+    "main.d3a003ed.css.map": "/AyandaGumede10/ayanda_portfolio.git/static/css/main.d3a003ed.css.map",
+    "main.ccb05972.js.map": "/AyandaGumede10/ayanda_portfolio.git/static/js/main.ccb05972.js.map"
   },
   "entrypoints": [
     "static/css/main.d3a003ed.css",
-    "static/js/main.7d3bdaff.js"
+    "static/js/main.ccb05972.js"
   ]
 }
