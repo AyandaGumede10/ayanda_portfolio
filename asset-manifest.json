@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AyandaGumede10/ayanda_portfolio.git/static/css/main.d3a003ed.css",
-    "main.js": "/AyandaGumede10/ayanda_portfolio.git/static/js/main.ccb05972.js",
-    "static/media/self.JPG": "/AyandaGumede10/ayanda_portfolio.git/static/media/self.bff1b3d5511b94528435.JPG",
-    "static/media/github-142-svgrepo-com.svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/github-142-svgrepo-com.482952713526e2f4259a00cf507541f1.svg",
-    "static/media/linkedin-rounded-svgrepo-com.svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/linkedin-rounded-svgrepo-com.4960de543f6e9935356255c54dedf083.svg",
-    "index.html": "/AyandaGumede10/ayanda_portfolio.git/index.html",
-    "static/media/email-svgrepo-com (1).svg": "/AyandaGumede10/ayanda_portfolio.git/static/media/email-svgrepo-com (1).a41a55da60d749efba1a786d6f2fc1fc.svg",
-    "main.d3a003ed.css.map": "/AyandaGumede10/ayanda_portfolio.git/static/css/main.d3a003ed.css.map",
-    "main.ccb05972.js.map": "/AyandaGumede10/ayanda_portfolio.git/static/js/main.ccb05972.js.map"
+    "main.css": "/ayanda_portfolio/static/css/main.d3a003ed.css",
+    "main.js": "/ayanda_portfolio/static/js/main.81410dc4.js",
+    "static/media/self.JPG": "/ayanda_portfolio/static/media/self.bff1b3d5511b94528435.JPG",
+    "static/media/github-142-svgrepo-com.svg": "/ayanda_portfolio/static/media/github-142-svgrepo-com.482952713526e2f4259a00cf507541f1.svg",
+    "static/media/linkedin-rounded-svgrepo-com.svg": "/ayanda_portfolio/static/media/linkedin-rounded-svgrepo-com.4960de543f6e9935356255c54dedf083.svg",
+    "static/media/email-svgrepo-com (1).svg": "/ayanda_portfolio/static/media/email-svgrepo-com (1).a41a55da60d749efba1a786d6f2fc1fc.svg",
+    "index.html": "/ayanda_portfolio/index.html",
+    "main.d3a003ed.css.map": "/ayanda_portfolio/static/css/main.d3a003ed.css.map",
+    "main.81410dc4.js.map": "/ayanda_portfolio/static/js/main.81410dc4.js.map"
   },
   "entrypoints": [
     "static/css/main.d3a003ed.css",
-    "static/js/main.ccb05972.js"
+    "static/js/main.81410dc4.js"
   ]
 }
