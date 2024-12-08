@@ -322,6 +322,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     color: white;
+    margin-bottom: 4%;
 }
 .copyright a{
     color: grey;
@@ -359,6 +360,9 @@
     }
     .modal-body p{
         font-size: 18px;
+    }
+    .copyright{
+        margin-bottom: 4%;
     }
 }
 /*-----------------------------------Ipad------------------------------------------------------*/
@@ -411,6 +415,9 @@
     }
     #modal-2-bd li{
         font-size: 22px;
+    }
+    .copyright{
+        margin-bottom: 4%;
     }
 }
 
@@ -505,6 +512,9 @@
     }
     #modal-2 li{
         font-size: 14px;
+    }
+    .copyright{
+        margin-bottom: 4%;
     }
 }
 /* ----------------------------------CellPhone-------------------------------- */
@@ -603,5 +613,8 @@
     }
     .modal-body li{
         font-size: 12px;
+    }
+    .copyright{
+        margin-bottom: 4%;
     }
 }
